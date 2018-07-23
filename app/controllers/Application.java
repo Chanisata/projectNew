@@ -23,13 +23,16 @@ public class Application extends Controller {
         String myname;
         foot foot1;
        foot1=new foot();
-        foot1.setId("com1");
-       foot1.setName("ห้องปฏิบัติการคอมพิวเตอร์");
-       foot1.setprice(50);
+        foot1.setId("111");
+       foot1.setName("ปูทะเล");
+       foot1.setprice(300);
+        foot foot2=new foot("112","หอยนางรม",170);
+        foot foot3=new foot("113","ทะเลรวม (ชุดเล็ก)",450);
+        foot foot4=new foot("114","ปูพร้อมกิน",150);
+        foot foot5=new foot("115","หอยแครง",150);
+        foot foot6=new foot("116","ทะเลรวม (ชุดใหญ่)",750);
 
-        foot foot2=new foot("com2","ห้องปฏิบัติการคอมพิวเตอร์2",80);
-
-                return main(showfoot.render(foot1,foot2));
+                return main(showfoot.render(foot1,foot2,foot3,foot4,foot5,foot6));
     }
 
 

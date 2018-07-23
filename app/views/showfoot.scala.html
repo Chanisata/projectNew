@@ -1,32 +1,67 @@
-@(f1:foot,f2:foot)
+@(f1:foot,f2:foot,f3:foot,f4:foot,f5:foot,f6:foot)
 <br><br><br>
-<h1>ตัวอย่างการแสดงสินค้า</h1>
+<h1>การแสดงสินค้า</h1>
 
 <div class="row">
     <div class="col-md-2"> </div>
 
     <div class="col-md-8">
 
-        <br>
-        <div class="panel panel-primary">
-                <div class="panel-heading">ห้อง @f1.getName()</div>
-                <div class="panel-body">
-                    รหัสสินค้า : @f1.getId() <br>
-                    ชื่อชื่อสินค้า : @f1.getName() <br>
-           ราคา : @f1.getprice() <br>
-
+    <div class="panel panel-primary">
+        <div class="panel-heading">เมนู@f1.getName()</div>
+        <div class="panel-body">
+            รหัสสินค้า : @f1.getId() <br>
+            ชื่อสินค้า : @f1.getName() <br>
+            ราคา : @f1.getprice() <br>
         </div>
     </div>
-
+    <br>
+    <div class="panel panel-primary">
+        <div class="panel-heading">เมนู@f2.getName()</div>
+        <div class="panel-body">
+            รหัสสินค้า : @f2.getId() <br>
+            ชื่อสินค้า : @f2.getName() <br>
+            ราคา : @f2.getprice() <br>
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="panel panel-primary">
+        <div class="panel-heading">เมนู@f3.getName()</div>
+        <div class="panel-body">
+            รหัสสินค้า : @f3.getId() <br>
+            ชื่อสินค้า : @f3.getName() <br>
+            ราคา : @f3.getprice() <br>
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="panel panel-primary">
+        <div class="panel-heading">เมนู@f4.getName()</div>
+        <div class="panel-body">
+            รหัสสินค้า : @f4.getId() <br>
+            ชื่อสินค้า : @f4.getName() <br>
+            ราคา : @f4.getprice() <br>
+            <br>
+        </div>
+    </div>
         <div class="panel panel-primary">
-            <div class="panel-heading">ห้อง @f2.getName()</div>
+            <div class="panel-heading">เมนู@f5.getName()</div>
             <div class="panel-body">
-                รหัสสินค้า : @f2.getId() <br>
-                ชื่อสินค้า : @f2.getName() <br>
-                ราคา : @f2.getprice() <br>
-        <br><br>
+                รหัสสินค้า : @f5.getId() <br>
+                ชื่อสินค้า : @f5.getName() <br>
+                ราคา : @f5.getprice() <br>
+                <br>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">เมนู@f6.getName()</div>
+            <div class="panel-body">
+                รหัสสินค้า : @f6.getId() <br>
+                ชื่อสินค้า : @f6.getName() <br>
+                ราคา : @f6.getprice() <br>
+                <br>
             </div>
         </div>
     </div>
-
 </div>
